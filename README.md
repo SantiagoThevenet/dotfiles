@@ -1,3 +1,1 @@
-# dotfiles
-# dotfiles
-# dotfiles
+ZSH_CONFIG DONE -> ZSH SYMLINK DONE
