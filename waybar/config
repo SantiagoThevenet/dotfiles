@@ -4,12 +4,12 @@
 	"position": "bottom",
 
 	"modules-left": [
-		"hyprland/workspaces",
+		"hyprland/workspaces"
 	],
 	"modules-center": [
 		"clock#1",
 		"clock#2",
-		"clock#3",
+		"clock#3"
 	],
 	"modules-right": [
 		"pulseaudio",

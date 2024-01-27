@@ -25,6 +25,7 @@ window#waybar {
 #workspaces {
 	border-radius: 20px;
 	border: 2px rgba(38, 156, 210, 0.671) solid;
+	margin-bottom: 2px;
 
 }
 #workspaces button {
@@ -32,16 +33,17 @@ window#waybar {
 	color: #fdf6e3;
 }
 #workspaces button.active {
-	color: #268bd2;
+	color: #fdf6e3;
+	border-radius: 20px;
+	background-color: rgba(38, 156, 210, 0.671);
+	padding: 0 4px;
 }
 #workspaces button:hover {
 	box-shadow: inherit;
 	text-shadow: inherit;
-}
-#workspaces button:hover {
 	background: #1a1a1a;
 	border: #1a1a1a;
-	padding: 0 3px;
+	border-radius: 30px;
 }
 
 #pulseaudio {
