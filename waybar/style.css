@@ -24,6 +24,7 @@ window#waybar {
 #clock.3,
 #pulseaudio,
 #memory,
+#bluetooth,
 #cpu,
 #battery,
 #disk,
@@ -54,6 +55,9 @@ window#waybar {
 #memory {
 	color: #2aa198;
 }
+#bluetooth {
+	color: #2aa198;
+}
 #cpu {
 	color: #6c71c4;
 }
@@ -68,7 +72,12 @@ window#waybar {
 #pulseaudio,
 #memory,
 #cpu,
+#bluetooth,
 #battery,
 #disk {
+	padding: 0 10px;
+}
+
+#pulseaudio {
 	padding: 0 10px;
 }
