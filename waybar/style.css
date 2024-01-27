@@ -25,7 +25,7 @@ window#waybar {
 #workspaces {
 	border-radius: 20px;
 	border: 2px rgba(38, 156, 210, 0.671) solid;
-	margin: 0 2px 0 2px;
+	margin: 0 2px 0 5px;
 
 }
 #workspaces button {
