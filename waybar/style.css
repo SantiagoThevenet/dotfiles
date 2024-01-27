@@ -24,6 +24,8 @@ window#waybar {
 
 #workspaces {
 	border-radius: 20px;
+	border: 2px rgba(38, 156, 210, 0.671) solid;
+
 }
 #workspaces button {
 	padding: 0 2px;
@@ -91,4 +93,10 @@ window#waybar {
 
 #pulseaudio {
 	padding: 0 10px;
+}
+
+#clock{
+	border-radius: 20px;
+	margin: 0 5px 2px 5px;
+	border: 2px rgba(255, 255, 255, 0.5) solid;
 }
